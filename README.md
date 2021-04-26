@@ -32,6 +32,8 @@ homework
    --- image2.JPEG
 ```
 
+#### here if you call:
+
 > `python undo.py`
 
 result
@@ -44,6 +46,8 @@ homework
    --- image1.HEIC
    --- image2.HEIC
 ```
+
+#### but if you call:
 
 > `python clean.py`
 
