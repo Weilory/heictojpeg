@@ -16,22 +16,40 @@ homework
    --- image2.HEIC
 ```
 
-> `python main.py`
+> `python heictojpg.py`
 
 result
 
 ```
 homework
 --- main.py
---- request.jpg
+--- request.HEIC
+--- request.JPEG
 --- snipshots
-   --- image1.jpg
-   --- image2.jpg
+   --- image1.HEIC
+   --- image2.HEIC
+   --- image1.JPEG
+   --- image2.JPEG
+```
+
+> `python undo.py`
+
+result
+
+```
+homework
+--- main.py
+--- request.HEIC
+--- snipshots
+   --- image1.HEIC
+   --- image2.HEIC
 ```
 
 <hr >
 
-### notes
+### dependencies
 
-> This application does not modify image content, it simply rename `HEIC` file to `jpg`
-
+```sh
+pip install pyheif
+pip install Pillow
+```
