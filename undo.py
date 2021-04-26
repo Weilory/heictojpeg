@@ -15,4 +15,9 @@ def recursor(dirpath):
 					recursor(entry.path)
 
 
-recursor(os.path.dirname(os.path.realpath(__file__)))
+ans = input('Are you sure? this will remove all JPEG files despite of whether it is created by heictojpg.py in current directory and all sub-directories belongs in? (y/n)')
+ans = ans.strip()
+if ans == 'y' or ans == 'Y':
+	recursor(os.path.dirname(os.path.realpath(__file__)))
+else:
+	print('undo aborted')
