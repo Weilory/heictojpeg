@@ -1,5 +1,5 @@
-# heictojpg
-convert HEIC to JPG, for all HEIC files in current directory including its sub-directories. 
+# heictojpeg
+convert HEIC to JPEG, for all HEIC files in current directory including its sub-directories. 
 
 <hr />
 
