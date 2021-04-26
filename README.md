@@ -45,6 +45,19 @@ homework
    --- image2.HEIC
 ```
 
+> `python clean.py`
+
+result
+
+```
+homework
+--- main.py
+--- request.JPEG
+--- snipshots
+   --- image1.JPEG
+   --- image2.JPEG
+```
+
 <hr >
 
 ### dependencies
